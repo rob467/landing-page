@@ -7,7 +7,22 @@ body {
     color: #F9FAF8;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
 
 .header h3 {
     font-size: 24px;
+    margin: 0px;
 }
