@@ -78,3 +78,28 @@ button {
 p {
     margin: 8px 0px;
 }
+
+.section-two {
+    text-align: center;
+    background-color: #fff;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+}
+
+.image-container img {
+    border: solid #3882F6;
+    border-radius: 10%;
+}
