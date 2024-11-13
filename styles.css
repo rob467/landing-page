@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -22,6 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 25px 200px;
+    gap: 250px;
 }
 
 .header ul {
@@ -79,10 +80,13 @@ p {
     margin: 8px 0px;
 }
 
-.section-two {
-    text-align: center;
+.section-two, .section-four {
     background-color: #fff;
     color: #1f2937;
+}
+
+.section-two {
+    text-align: center;
 }
 
 .images {
@@ -107,21 +111,61 @@ p {
 .section-three {
     background-color: #E5E7EB;
     font-size: 36px;
-    flex-direction: column;
     display: flex;
-    color: #1f2937;
     justify-content: center;
+    color: #1f2937;
+    width: 100%;
+    padding: 10px;
+}
+
+.quote-container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
     font-style: italic;
     font-weight: lighter;
     text-align: center;
-    max-width: 500px;
 }
 
-#quote-attrib {
+.quote-attrib {
     font-weight: bold;
     font-size: 24px;
     align-self: flex-end;
+    margin-top: 0px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    margin: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 100px;
+}
+
+.sign-up-container h4 {
+    margin: 0px;
+}
+
+.sign-up-container p {
+    margin: 0px;
+    max-width: 600px;
+}
+
+.sign-up-container button {
+    color: #E5E7EB;
+    border: solid #fff;
+    width: 150px;
+    padding: 5px;
+    height: 50px;
+    margin: 0px;
 }
