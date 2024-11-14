@@ -42,7 +42,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 200px;
+    margin: 25px 200px 50px;
     gap: 20px;
 }
 
@@ -87,6 +87,7 @@ p {
 
 .section-two {
     text-align: center;
+    padding: 20px;
 }
 
 .images {
@@ -120,6 +121,7 @@ p {
 
 .quote-container {
     max-width: 600px;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
 }
@@ -140,15 +142,16 @@ p {
 .section-four {
     display: flex;
     justify-content: center;
+    min-height: 200px;
 }
 
 .sign-up-container {
     background-color: #3882F6;
-    margin: 25px;
+    margin: 50px;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 50px;
     gap: 100px;
 }
 
@@ -162,10 +165,16 @@ p {
 }
 
 .sign-up-container button {
-    color: #E5E7EB;
     border: solid #fff;
-    width: 150px;
     padding: 5px;
     height: 50px;
     margin: 0px;
+}
+
+footer {
+    display: flex;
+    min-height: 80px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
 }
