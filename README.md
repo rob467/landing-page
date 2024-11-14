@@ -1,8 +1,8 @@
-# landing-page
-This is a test project based on the landing page from the Odin Project (https://www.theodinproject.com/lessons/foundations-landing-page).
+# Landing page
+This is a basic HTML and CSS (primarily flex) project based on the landing page project from the Odin Project (https://www.theodinproject.com/lessons/foundations-landing-page). 
 
 
 
 
 
-Dog image attribute: Image by JackieLou DL from Pixabay
+Main dog image attribute: Image by JackieLou DL from Pixabay
